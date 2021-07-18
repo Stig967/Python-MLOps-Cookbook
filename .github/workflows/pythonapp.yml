@@ -1,4 +1,4 @@
-name: MLOPs Python Cookbook with Github Actions
+name: MLOPs Python Cookbook with Github Actions, with my container
 on: [push]
 jobs:
   build:
@@ -37,7 +37,7 @@ jobs:
       with:
         context: ./
         #tags: alfredodeza/flask-roberta:latest
-        tags: ghcr.io/Stig967/python-mlops-cookbook:latest
+        tags: ghcr.io/stig967/python-mlops-cookbook:latest
         push: true
     
     
